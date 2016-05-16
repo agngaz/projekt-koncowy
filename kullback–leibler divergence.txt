@@ -1,0 +1,13 @@
+import numpy as np
+import math
+from math import log
+
+v=[[1,1,1,1,1,1,1],[1,2,1,1,1,2,1],[1,1,1,1,1,1,1]]
+c=v[0]
+def kl(p, q):
+    p = np.asarray(p, dtype=np.float)
+    q = np.asarray(q, dtype=np.float)
+    return np.sum(np.where(p != 0,(p) * np.log10(p / q), 0))
+for x in v:
+    KL=kl(x,c)
+    print KL
