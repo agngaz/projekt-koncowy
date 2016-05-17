@@ -1,0 +1,5 @@
+def braycurtis(u, v):
+
+    u = _validate_vector(u)
+    v = _validate_vector(v, dtype=np.float64)
+    return abs(u - v).sum() / abs(u + v).sum()
