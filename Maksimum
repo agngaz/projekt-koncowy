@@ -11,3 +11,13 @@ def maxelements(seq):
                 max_indices = [i]
 
     return max_indices
+    
+def czebyszew(x,y)
+    max=0
+    i=0
+    while i<len(x)
+        if fabs(x[i]-y[i]) >= max
+            max=fabs(x[i]-y[i])
+    return max
+    
+    
