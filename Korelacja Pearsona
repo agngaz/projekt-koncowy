@@ -31,7 +31,6 @@ def get_pearson_corelation(self, first_feature_vector=[], second_feature_vector=
             del (indexed_feature_dict[tuple[0]])
         else:
             covariance_a_b += (0 - avg_a) * (tuple[1] - avg_b)
-
     for index in indexed_feature_dict:
         count_of_features += 1
         covariance_a_b += (indexed_feature_dict[index] - avg_a) * (0 - avg_b)
