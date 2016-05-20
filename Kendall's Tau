@@ -4,7 +4,7 @@
 >>> print scipy.stats.stats.kendalltau(x, y)[0]
 
 >>> import scipy.stats as stats
->>> x1 = [12, 2, 1, 12, 2]
+>>> x1 = [15, 2, 1, 12, 2]
 >>> x2 = [1, 4, 7, 1, 0]
 >>> tau, p_value = stats.kendalltau(x1, x2)
 >>> tau
