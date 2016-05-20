@@ -2,3 +2,13 @@
 >>> x = [5.05, 6.75, 3.21, 2.66]
 >>> y = [1.65, 26.5, -5.93, 7.96]
 >>> print scipy.stats.stats.kendalltau(x, y)[0]
+
+
+>>> import scipy.stats as stats
+>>> x1 = [12, 2, 1, 12, 2]
+>>> x2 = [1, 4, 7, 1, 0]
+>>> tau, p_value = stats.kendalltau(x1, x2)
+>>> tau
+-0.47140452079103173
+>>> p_value
+0.24821309157521476
