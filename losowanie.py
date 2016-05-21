@@ -23,7 +23,7 @@ i=0
 while i<ncol:
     x.insert(i,df.iat[row1,col[i]])
     y.insert(i,df.iat[row2,col[i]])
-    i += 1
+    i = i + 1
 print(x)
 print(y)
 measures = Similarity()
