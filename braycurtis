@@ -11,4 +11,5 @@ def braycurtis(x,y):
     while i<len(x):
         sum1=sum1+abs(x[i]-y[i])
         sum2=sum2+abs(x[i]+y[i])
+        i = i+1
     return sum1/sum2
