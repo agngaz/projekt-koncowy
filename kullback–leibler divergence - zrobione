@@ -11,3 +11,14 @@ def kl(p, q):
 for x in v:
     KL=kl(x,c)
     print KL
+
+
+def kullbackleibler(p, q):
+    i=0
+    while i<len(p):
+        if p[i] < 0 or q[i] < 0:
+            return
+        i=i+1
+    p = np.asarray(p, dtype=np.float)
+    q = np.asarray(q, dtype=np.float)
+    return np.sum(np.where(p != 0,(p-q) * np.log10(p / q), 0))
