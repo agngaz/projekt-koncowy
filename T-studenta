@@ -4,7 +4,7 @@ def student_test(samples, prec, confidence=0.9, min_samples=10):
     samples -- list of numbers generated from your stochastic process
     prec -- desired distance between the empirical and real mean
     confidence -- desired probability of correct answer
-    min_samples -- minimum number of samples
+    min_samples --- minimum number of samples
 
     """
     assert 0. < confidence < 1.
