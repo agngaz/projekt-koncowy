@@ -3,3 +3,12 @@ def braycurtis(u, v):
     u = _validate_vector(u)
     v = _validate_vector(v, dtype=np.float64)
     return abs(u - v).sum() / abs(u + v).sum()
+
+def braycurtis(x,y):
+    i=0
+    sum1=0
+    sum2=0
+    while i<len(x):
+        sum1=sum1+abs(x[i]-y[i])
+        sum2=sum2+abs(x[i]+y[i])
+    return sum1/sum2
