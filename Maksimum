@@ -20,4 +20,3 @@ def czebyszew(x,y)
             max=fabs(x[i]-y[i])
     return max
     
-    
