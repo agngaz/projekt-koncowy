@@ -1,9 +1,5 @@
 #!/usr/bin/env python
-"""
-Created on Sat May 21 08:32:02 2016
 
-@author: Wojtek
-"""
 import numpy as np
 import math
 from math import log
