@@ -1,0 +1,5 @@
+rogerstanimoto(u, v) 
+russellrao(u, v)
+sokalmichener(u, v) 
+sokalsneath(u, v)
+yule(u, v)
