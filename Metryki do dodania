@@ -1,0 +1,4 @@
+dice(u, v)
+hamming(u, v) 	
+kulsinski(u, v)
+matching(u, v) 
